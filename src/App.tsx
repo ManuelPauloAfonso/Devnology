@@ -1,8 +1,14 @@
+import React from "react"
+import Routes from "./routes/routes"
+import { GlobalStyle } from "./style/global"
 
 function App() {
 
   return (
-    <h1>devnology</h1>
+    <React.Fragment>
+      <GlobalStyle />
+      <Routes />
+    </React.Fragment>
   )
 }
 
